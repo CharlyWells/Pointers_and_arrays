@@ -29,6 +29,9 @@ int main(void)
   printf("Value of 'n' before the call: %d\n", n);
   printf("Address of 'n': %p\n", &n);
   printf("Value of 'p': %p\n",p);
+  printf("Address of 'p': %p\n", &p);
+  modify_my_parameter(p);
+  printf("Value of 'n' after the call: %d\n", n);
   return (0);
   
 }
